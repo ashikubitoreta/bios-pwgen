@@ -26,7 +26,7 @@ import os
 # someone smacked his head onto the keyboard
 XORkey = "<7#&9?>s"
 
-def codeToBytes(code):
+def codeToBytes(code):0b65-3739-8101-6801-3935-3123
 	numbers = (int(code[0:5]), int(code[5:10]), int(code[10:15]), int(code[15:20]))
 	bytes = []
 	for i in numbers:
